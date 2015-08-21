@@ -1,0 +1,75 @@
+
+@font-face{ /*imports drizzy drake OVO font for Xtra vibes */
+	font-family: "Rockwell";
+	src: url(ufonts.com_rockwell.ttf) format('truetype');
+}
+
+body{
+	background-image: url("images/image1.jpg");
+	background-size: cover;
+	background-color: black;
+	font-family: "Rockwell", Times, serif ;
+	color: white;
+}
+
+#music{
+	display:none;
+}
+#main{
+	display:block;
+	width: 700px;
+	bottom:20%;
+}
+
+#text{
+	margin-left:2em;
+	margin-right:2em;
+}
+
+.left{
+	text-align:left;
+	left:0;
+	position: absolute;
+}
+
+.center{
+	margin-left:12em;
+	text-align: center;
+	bottom:0;
+	position:absolute;
+
+}
+
+.buttoncenter{
+	left:29%;
+	top:80%;
+}
+
+.right{
+	text-align:right;
+	right:0;
+	position: absolute;
+}
+
+#largetext{
+	font-size: 275%;
+	margin-bottom:-.25em;
+}
+
+#smalltext{
+	font-size:110%;
+}
+#generator{  /* div button styling */
+	display: block;
+	position: fixed; /* keeps background color from extending all the way to right of page */
+	width:385px;
+	height:30px;
+	padding: .4em;
+	margin-top: -.25em;
+	border-radius: 10px;
+	font-size: 170%;
+	color:white;
+	background-color: #F7CF00;
+	margin-left:1em;
+	margin-right:1em;
+}
